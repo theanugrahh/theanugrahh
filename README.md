@@ -4,9 +4,6 @@
 
 <br/>
 
-<a href="https://github.com/theanugrahh">
-  <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=E8C56D" alt="GitHub"/>
-</a>
 <a href="https://www.linkedin.com/in/anugrahkrishnaasreejith/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>

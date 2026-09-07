@@ -23,7 +23,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             github-contribution-grid-snake.svg?palette=github-light&color_snake=2DA44E&color_snake_bg=F6F8FA&color_dots=EBEDF0,9BE9A8,40C463,30A14E,216E39
-            github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=39D353&color_snake_bg=161B22&color_dots=161B22,0E4429,006D32,26A641,39D353
+            github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=7EE787&color_snake_bg=0E4429&color_dots=0E4429,006D32,26A641,39D353,7EE787
 
       - name: Remove progress bar and crop
         run: |
