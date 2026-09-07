@@ -1,0 +1,15 @@
+<svg width="432" height="232" viewBox="0 0 432 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="431" height="231" rx="14" fill="#12161B" stroke="#2A3038"/>
+  <text x="32" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#D8C08A">PROCESS</text>
+  <line x1="32" y1="66" x2="400" y2="66" stroke="#2A3038"/>
+  <text x="32" y="104" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#D8C08A">01</text>
+  <text x="32" y="128" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#E7E2D8">Idea</text>
+  <text x="120" y="122" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#667079">→</text>
+  <text x="168" y="104" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#D8C08A">02</text>
+  <text x="168" y="128" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#E7E2D8">Model</text>
+  <text x="262" y="122" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#667079">→</text>
+  <text x="310" y="104" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#D8C08A">03</text>
+  <text x="310" y="128" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#E7E2D8">System</text>
+  <line x1="32" y1="164" x2="400" y2="164" stroke="#232830"/>
+  <text x="32" y="196" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#9AA4AF">research · experiment · engineer · ship</text>
+</svg>

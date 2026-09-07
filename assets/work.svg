@@ -1,0 +1,15 @@
+<svg width="880" height="316" viewBox="0 0 880 316" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="879" height="315" rx="14" fill="#12161B" stroke="#2A3038"/>
+  <text x="36" y="48" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#D8C08A">SELECTED WORK</text>
+  <text x="36" y="90" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#E7E2D8">Civitas</text>
+  <text x="844" y="90" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#667079">BART-MNLI · WHISPER · FASTAPI · REACT</text>
+  <text x="36" y="114" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">Zero-shot NLP + speech pipeline for civic grievance redressal with real-time analytics.</text>
+  <line x1="36" y1="142" x2="844" y2="142" stroke="#232830"/>
+  <text x="36" y="180" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#E7E2D8">Faculty Workload Management</text>
+  <text x="844" y="180" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#667079">PHP · MYSQL</text>
+  <text x="36" y="204" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">SQL-driven teaching and administrative workload allocation — the database does the heavy lifting.</text>
+  <line x1="36" y1="232" x2="844" y2="232" stroke="#232830"/>
+  <text x="36" y="270" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#E7E2D8">Aguamenti</text>
+  <text x="844" y="270" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#D8C08A">YOUNG INNOVATOR · RUNNER-UP · 300+ TEAMS</text>
+  <text x="36" y="294" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">Research on anaerobic wastewater treatment systems.</text>
+</svg>

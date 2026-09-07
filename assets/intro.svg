@@ -1,0 +1,9 @@
+<svg width="640" height="232" viewBox="0 0 640 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="639" height="231" rx="14" fill="#12161B" stroke="#2A3038"/>
+  <text x="36" y="50" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#D8C08A">ANUGRAH KRISHNAA SREEJITH</text>
+  <text x="36" y="90" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" font-weight="600" fill="#E7E2D8">AI / ML · Systems · Research</text>
+  <line x1="36" y1="114" x2="604" y2="114" stroke="#2A3038"/>
+  <text x="36" y="147" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">I work at the intersection of machine learning and systems —</text>
+  <text x="36" y="171" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">taking models from experiment to API to interface, and shipping</text>
+  <text x="36" y="195" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">them as real-time, production-grade tools.</text>
+</svg>
