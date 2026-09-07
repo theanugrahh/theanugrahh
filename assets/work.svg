@@ -1,28 +1,98 @@
-<svg width="880" height="316" viewBox="0 0 880 316" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1MTcyNGU3YS01ZGM3LTQ3YjItYWUxYS0yN2RkYmMxZjU5NTIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaHCWg+EsdNs99h7ZqD4/ovQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjNWM4N2NiYS0wOWQ3LTRjMWItOWQ3OS00NzA3MGRmMjUxYjNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoeCfgWrkS87rJ6t6ye4ZljgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggM/jGdXkh5lJRhs4Rq0KAogTNgCDKW4scJYhd+dXnYpWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOESkfQkRDUmtpgeI8TlJTgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDlhEaydt4ny2dZSWa82sVwAjnrvsBrJV6yAQQVpy7r1WRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiiZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjUxNzI0ZTdhLTVkYzctNDdiMi1hZTFhLTI3ZGRiYzFmNTk1Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmZiNmRhNDNkLWM3ZGItNDE2ZC05ZjNkLTNkZjdmYzI5NGE0Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAz+MZ1eSHmUlGGzhGrQoCiBM2AIMpbixwliF351edilaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggLtDEqK6q+B1zr1FoeNxsuJ65vXcOumpKWp+BuQl7SW2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggV5kC+RTHKVMDWcB4JkIMDX9vU4nWndvwNHLL8ustRYV0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJnPCsnwowxcJyvNuPoPyXGbR6GG0qVH0THPnAEAbceFX7gfAu7TmY5dRs5KIUak0PRUH5JKHmJO5Em/d2sTTjc=</c2pa:manifest></metadata>
-  <style>
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
-    .f { opacity: 0; animation: fadeUp .55s ease-out forwards; }
-    .d1 { animation-delay: .05s; } .d2 { animation-delay: .2s; } .d3 { animation-delay: .4s; } .d4 { animation-delay: .6s; }
-  </style>
-  <rect x="0.5" y="0.5" width="879" height="315" rx="14" fill="#12161B" stroke="#2A3038"/>
-  <g class="f d1">
-    <text x="36" y="48" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#D8C08A">SELECTED WORK</text>
+<svg width="880" height="380" viewBox="0 0 880 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="workAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D8C08A"/>
+      <stop offset="100%" stop-color="#E8D5A8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="880" height="380" rx="16" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Header -->
+  <text x="36" y="44" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="11" letter-spacing="4" fill="#D8C08A" font-weight="600">SELECTED WORK</text>
+  <line x1="36" y1="58" x2="844" y2="58" stroke="#21262D" stroke-width="1"/>
+  <rect x="36" y="56" width="50" height="2" rx="1" fill="#D8C08A" opacity="0.6"/>
+
+  <!-- Project 1: Civitas -->
+  <g transform="translate(36, 76)">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+    
+    <!-- Project card -->
+    <rect width="808" height="88" rx="12" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+    
+    <!-- Left accent -->
+    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#D8C08A" opacity="0.6"/>
+    
+    <!-- Project number -->
+    <text x="20" y="32" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="28" font-weight="700" fill="#21262D">01</text>
+    
+    <!-- Project name -->
+    <text x="76" y="32" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="16" font-weight="600" fill="#E7E2D8">Civitas</text>
+    
+    <!-- Description -->
+    <text x="76" y="56" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">Zero-shot NLP + speech pipeline for civic grievance redressal</text>
+    <text x="76" y="74" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">with real-time analytics dashboard.</text>
+    
+    <!-- Tech tags -->
+    <g transform="translate(520, 20)">
+      <rect width="68" height="22" rx="4" fill="#21262D"/>
+      <text x="34" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#7EE787">BART-MNLI</text>
+    </g>
+    <g transform="translate(596, 20)">
+      <rect width="72" height="22" rx="4" fill="#21262D"/>
+      <text x="36" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#7EE787">WHISPER</text>
+    </g>
+    <g transform="translate(676, 20)">
+      <rect width="68" height="22" rx="4" fill="#21262D"/>
+      <text x="34" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#7EE787">FASTAPI</text>
+    </g>
+    <g transform="translate(752, 20)">
+      <rect width="56" height="22" rx="4" fill="#21262D"/>
+      <text x="28" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#7EE787">REACT</text>
+    </g>
   </g>
-  <g class="f d2">
-    <text x="36" y="90" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#E7E2D8">Civitas</text>
-    <text x="844" y="90" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#667079">BART-MNLI · WHISPER · FASTAPI · REACT</text>
-    <text x="36" y="114" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">Zero-shot NLP + speech pipeline for civic grievance redressal with real-time analytics.</text>
-    <line x1="36" y1="142" x2="844" y2="142" stroke="#232830"/>
+
+  <!-- Project 2: Faculty Workload Management -->
+  <g transform="translate(36, 180)">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+    
+    <rect width="808" height="88" rx="12" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#58A6FF" opacity="0.6"/>
+    
+    <text x="20" y="32" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="28" font-weight="700" fill="#21262D">02</text>
+    <text x="76" y="32" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="16" font-weight="600" fill="#E7E2D8">Faculty Workload Management</text>
+    
+    <text x="76" y="56" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">SQL-driven teaching and administrative workload allocation —</text>
+    <text x="76" y="74" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">the database does the heavy lifting.</text>
+    
+    <g transform="translate(640, 20)">
+      <rect width="56" height="22" rx="4" fill="#21262D"/>
+      <text x="28" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#7EE787">PHP</text>
+    </g>
+    <g transform="translate(704, 20)">
+      <rect width="72" height="22" rx="4" fill="#21262D"/>
+      <text x="36" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#7EE787">MYSQL</text>
+    </g>
   </g>
-  <g class="f d3">
-    <text x="36" y="180" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#E7E2D8">Faculty Workload Management</text>
-    <text x="844" y="180" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#667079">PHP · MYSQL</text>
-    <text x="36" y="204" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">SQL-driven teaching and administrative workload allocation — the database does the heavy lifting.</text>
-    <line x1="36" y1="232" x2="844" y2="232" stroke="#232830"/>
-  </g>
-  <g class="f d4">
-    <text x="36" y="270" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#E7E2D8">Aguamenti</text>
-    <text x="844" y="270" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#D8C08A">YOUNG INNOVATOR · RUNNER-UP · 300+ TEAMS</text>
-    <text x="36" y="294" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#9AA4AF">Research on anaerobic wastewater treatment systems.</text>
+
+  <!-- Project 3: Aguamenti -->
+  <g transform="translate(36, 284)">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.6s" fill="freeze"/>
+    
+    <rect width="808" height="88" rx="12" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#D8C08A" opacity="0.8"/>
+    
+    <text x="20" y="32" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="28" font-weight="700" fill="#21262D">03</text>
+    <text x="76" y="32" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="16" font-weight="600" fill="#E7E2D8">Aguamenti</text>
+    
+    <!-- Recognition badge -->
+    <g transform="translate(236, 16)">
+      <rect width="200" height="22" rx="4" fill="#D8C08A" opacity="0.15"/>
+      <text x="100" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#D8C08A" font-weight="600">🏆 YOUNG INNOVATOR · RUNNER-UP</text>
+    </g>
+    
+    <text x="76" y="56" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">Research on anaerobic wastewater treatment systems —</text>
+    <text x="76" y="74" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">selected from 300+ teams nationwide.</text>
   </g>
 </svg>

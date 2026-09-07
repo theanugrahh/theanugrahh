@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-dist/
 build/
 
 # IDE
@@ -21,7 +20,3 @@ npm-debug.log*
 .env
 .env.local
 .env.*.local
-
-# Generated
-trophies.svg
-snake.svg
