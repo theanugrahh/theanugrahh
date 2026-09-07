@@ -67,14 +67,6 @@
 
 <div align="center">
 
-<p>
-  Recognition: Young Innovator — Runner-Up, selected from 300+ teams.
-  <br/>
-  Currently exploring: NLP · Signal Processing · Real-time Systems · Computer Vision.
-</p>
-
-<br/>
-
 <sub>Built with curiosity, caffeine, and an unreasonable number of experiments.</sub>
 <br/>
 <sub>© Anugrah Krishnaa Sreejith</sub>
