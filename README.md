@@ -8,7 +8,7 @@
 ---
 
 **Contact**
-[GitHub](https://github.com/theanugrahh) · [LinkedIn](https://www.linkedin.com/in/anugrahkrishnaasreejith/) · [Email](mailto:anugrahkrishnaasreejith@gmail.com)
+[GitHub](https://github.com/theanugrahh) · [LinkedIn](https://www.linkedin.com/in/anugrahkrishnaasreejith/) · [Email](mailto:sreejith.anugrah@gmail.com)
 
 **Recognition**
 Young Innovator — Runner-Up
@@ -16,7 +16,7 @@ Young Innovator — Runner-Up
 
 **Exploring**
 NLP · Signal Processing
-Real-time Systems · Computer Vision
+Real-time Systems
 
 ![followers](https://img.shields.io/github/followers/theanugrahh?style=flat-square&labelColor=12161B&color=12161B)
 
@@ -54,6 +54,7 @@ Real-time Systems · Computer Vision
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%" />
+<!-- Requires the snk GitHub Action pointed at this repo to populate the "output" branch: https://github.com/Platane/snk -->
+<img src="https://raw.githubusercontent.com/theanugrahh/theanugrahh/output/github-contribution-grid-snake.svg" width="100%" />
 
 <p align="center"><sub>Built with curiosity, caffeine, and an unreasonable number of experiments. · © Anugrah Krishnaa Sreejith</sub></p>
