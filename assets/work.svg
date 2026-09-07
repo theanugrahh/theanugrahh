@@ -88,8 +88,9 @@
     
     <!-- Recognition badge -->
     <g transform="translate(236, 16)">
-      <rect width="200" height="22" rx="4" fill="#D8C08A" opacity="0.15"/>
-      <text x="100" y="15" text-anchor="middle" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#D8C08A" font-weight="600">🏆 YOUNG INNOVATOR · RUNNER-UP</text>
+      <rect width="216" height="22" rx="4" fill="#D8C08A" opacity="0.15"/>
+      <circle cx="10" cy="11" r="3" fill="#D8C08A"/>
+      <text x="22" y="15" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#D8C08A" font-weight="600">YOUNG INNOVATOR · RUNNER-UP</text>
     </g>
     
     <text x="76" y="56" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8B949E">Research on anaerobic wastewater treatment systems —</text>

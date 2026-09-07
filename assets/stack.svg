@@ -1,9 +1,5 @@
 <svg width="880" height="380" viewBox="0 0 880 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#D8C08A"/>
       <stop offset="100%" stop-color="#E8D5A8"/>
@@ -14,167 +10,170 @@
   <rect width="880" height="380" rx="16" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
 
   <!-- Header -->
-  <text x="36" y="44" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="11" letter-spacing="4" fill="#D8C08A" font-weight="600">THE STACK</text>
+  <text x="36" y="44" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="11" letter-spacing="4" fill="#D8C08A" font-weight="600">THE STACK</text>
   <line x1="36" y1="58" x2="844" y2="58" stroke="#21262D" stroke-width="1"/>
+  <rect x="36" y="56" width="50" height="2" rx="1" fill="#D8C08A" opacity="0.6"/>
 
-  <!-- ML / AI Section -->
-  <text x="36" y="88" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#667079">MACHINE LEARNING &amp; AI</text>
+  <!-- ============ Row 1: Machine Learning & AI ============ -->
+  <text x="36" y="86" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#667079">MACHINE LEARNING &amp; AI</text>
 
   <!-- Python -->
-  <g transform="translate(36, 100)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#3776AB" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFD43B">Py</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">Python</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Core Language</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.1s" fill="freeze"/>
+  <g transform="translate(36, 98)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#3776AB"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#FFD43B">Py</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">Python</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Core Language</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.1s" fill="freeze"/>
   </g>
 
   <!-- PyTorch -->
-  <g transform="translate(178, 100)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#EE4C2C" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Pt</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">PyTorch</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Deep Learning</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+  <g transform="translate(200, 98)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#EE4C2C"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">Pt</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">PyTorch</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Deep Learning</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>
   </g>
 
   <!-- TensorFlow -->
-  <g transform="translate(320, 100)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#FF6F00" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">TF</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">TensorFlow</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">ML Framework</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.3s" fill="freeze"/>
+  <g transform="translate(364, 98)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#FF6F00"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">TF</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">TensorFlow</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">ML Framework</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
   </g>
 
   <!-- OpenCV -->
-  <g transform="translate(462, 100)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#5C3EE8" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">CV</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">OpenCV</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Computer Vision</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+  <g transform="translate(528, 98)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#5C3EE8"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">CV</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">OpenCV</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Computer Vision</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
   </g>
 
   <!-- Scikit-learn -->
-  <g transform="translate(604, 100)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#F09437" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Sk</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="11" fill="#E7E2D8" font-weight="500">Scikit</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">ML Library</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.5s" fill="freeze"/>
+  <g transform="translate(692, 98)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#F09437"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">Sk</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" font-weight="500" fill="#E7E2D8">Scikit</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">ML Library</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
   </g>
 
-  <!-- Backend Section -->
-  <text x="36" y="178" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#667079">BACKEND &amp; DATABASES</text>
+  <!-- ============ Row 2: Backend & Databases ============ -->
+  <text x="36" y="180" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#667079">BACKEND &amp; DATABASES</text>
 
   <!-- FastAPI -->
-  <g transform="translate(36, 190)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#009688" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">⚡</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">FastAPI</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">API Framework</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.6s" fill="freeze"/>
+  <g transform="translate(36, 192)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#009688"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#FFFFFF">F</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">FastAPI</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">API Framework</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
   </g>
 
   <!-- PHP -->
-  <g transform="translate(178, 190)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#777BB4" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">php</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">PHP</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Server-Side</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.7s" fill="freeze"/>
+  <g transform="translate(200, 192)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#777BB4"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#FFFFFF">PHP</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">PHP</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Server-Side</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/>
   </g>
 
   <!-- MySQL -->
-  <g transform="translate(320, 190)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#4479A1" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">My</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">MySQL</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Relational DB</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+  <g transform="translate(364, 192)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#4479A1"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">My</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">MySQL</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Relational DB</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
   </g>
 
   <!-- MongoDB -->
-  <g transform="translate(462, 190)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#4DB33D" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Mg</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">MongoDB</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">NoSQL DB</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.9s" fill="freeze"/>
+  <g transform="translate(528, 192)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#4DB33D"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">Mg</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">MongoDB</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">NoSQL DB</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.9s" fill="freeze"/>
   </g>
 
   <!-- SQLite -->
-  <g transform="translate(604, 190)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#003B57" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Sq</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">SQLite</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Embedded DB</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.0s" fill="freeze"/>
+  <g transform="translate(692, 192)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#0B6A90"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">Sq</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">SQLite</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Embedded DB</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.0s" fill="freeze"/>
   </g>
 
-  <!-- Frontend & Tools Section -->
-  <text x="36" y="268" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#667079">FRONTEND &amp; TOOLS</text>
+  <!-- ============ Row 3: Frontend & Tools ============ -->
+  <text x="36" y="274" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#667079">FRONTEND &amp; TOOLS</text>
 
   <!-- React -->
-  <g transform="translate(36, 280)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#20232A" stroke="#61DAFB" stroke-width="1.5"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#61DAFB">⚛</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">React</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Frontend UI</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.1s" fill="freeze"/>
+  <g transform="translate(36, 286)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#20232A" stroke="#61DAFB" stroke-width="1.5"/>
+    <text x="28" y="31" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#61DAFB">R</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">React</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Frontend UI</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>
   </g>
 
   <!-- Git -->
-  <g transform="translate(178, 280)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#F05032" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Git</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">Git</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Version Control</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+  <g transform="translate(200, 286)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#F05032"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FFFFFF">Gi</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">Git</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Version Control</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
   </g>
 
   <!-- Linux -->
-  <g transform="translate(320, 280)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#FCC624" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#333333">🐧</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="12" fill="#E7E2D8" font-weight="500">Linux</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Operating System</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.3s" fill="freeze"/>
+  <g transform="translate(364, 286)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#FCC624"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#221C12">Li</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="500" fill="#E7E2D8">Linux</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">Operating System</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.3s" fill="freeze"/>
   </g>
 
   <!-- VS Code -->
-  <g transform="translate(462, 280)">
-    <rect width="130" height="48" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="24" cy="24" r="12" fill="#007ACC" opacity="0.9"/>
-    <text x="24" y="28" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">&lt;/&gt;</text>
-    <text x="46" y="21" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="11" fill="#E7E2D8" font-weight="500">VS Code</text>
-    <text x="46" y="35" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">IDE</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.4s" fill="freeze"/>
+  <g transform="translate(528, 286)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="28" cy="26" r="13" fill="#007ACC"/>
+    <text x="28" y="30" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#FFFFFF">&lt;/&gt;</text>
+    <text x="50" y="23" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" font-weight="500" fill="#E7E2D8">VS Code</text>
+    <text x="50" y="38" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#667079">IDE</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
   </g>
 
-  <!-- Exploring badge -->
-  <g transform="translate(604, 280)">
-    <rect width="240" height="48" rx="8" fill="#161B22" stroke="#D8C08A" stroke-width="1" stroke-dasharray="4 2"/>
-    <text x="16" y="20" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="1" fill="#D8C08A">EXPLORING</text>
-    <text x="16" y="36" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="10" fill="#9AA4AF">Real-time Systems · CV</text>
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>
+  <!-- Exploring -->
+  <g transform="translate(692, 286)">
+    <rect width="150" height="52" rx="9" fill="#161B22" stroke="#D8C08A" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="14" y="24" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="1" fill="#D8C08A">EXPLORING</text>
+    <text x="14" y="40" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" fill="#9AA4AF">Real-time · CV</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
   </g>
 
-  <!-- Bottom accent line -->
-  <line x1="36" y1="350" x2="844" y2="350" stroke="#21262D" stroke-width="1"/>
-  <rect x="36" y="348" width="80" height="2" rx="1" fill="#D8C08A" opacity="0.6"/>
+  <!-- Bottom accent -->
+  <line x1="36" y1="356" x2="844" y2="356" stroke="#21262D" stroke-width="1"/>
+  <rect x="36" y="354" width="80" height="2" rx="1" fill="#D8C08A" opacity="0.6">
+    <animate attributeName="width" values="0;80" dur="0.6s" begin="1.6s" fill="freeze"/>
+  </rect>
 </svg>
