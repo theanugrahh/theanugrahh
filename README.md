@@ -56,9 +56,9 @@
 ### Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake-dark.svg?cache-bust=v2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake.svg?cache-bust=v2" />
+  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake-dark.svg?cache-bust=v2" />
 </picture>
 
 </div>
