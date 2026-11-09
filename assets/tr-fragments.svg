@@ -1,0 +1,25 @@
+<svg width="880" height="236" viewBox="0 0 880 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="236" rx="16" fill="#0A1420" stroke="#14243A" stroke-width="1"/>
+  <text x="44" y="42" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="10" letter-spacing="4" font-weight="600" fill="#63D7E3">INTERCEPTED FRAGMENTS</text>
+  <text x="836" y="42" text-anchor="end" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="10" letter-spacing="2" fill="#4A6376">BELIEFS, DISTILLED</text>
+  <line x1="44" y1="56" x2="836" y2="56" stroke="#1E2C3F" stroke-width="1"/>
+  <rect x="30" y="60" width="2" height="160" fill="#63D7E3" opacity="0.10">
+    <animate attributeName="x" values="30;848;848;30;30" dur="26s" begin="1s" repeatCount="indefinite" keyTimes="0;0.42;0.5;0.92;1"/>
+    <animate attributeName="opacity" values="0.10;0.10;0;0;0.10" dur="26s" begin="1s" repeatCount="indefinite" keyTimes="0;0.42;0.44;0.9;0.92"/>
+  </rect>
+  <text x="48" y="88" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#63D7E3" opacity="0.75">&#9656;</text>
+  <text x="66" y="88" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#AFC7D6">I ship systems, not demos &#8212; if it can't survive a Monday, it isn't finished.    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
+  </text>
+  <text x="48" y="114" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#63D7E3" opacity="0.75">&#9656;</text>
+  <text x="66" y="114" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#AFC7D6">Real-time is the point. The world doesn't buffer.    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+  </text>
+  <text x="48" y="140" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#63D7E3" opacity="0.75">&#9656;</text>
+  <text x="66" y="140" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#AFC7D6">I like tools that carry their own weight: zero-shot models, databases that do the    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/>
+  </text>
+  <text x="48" y="166" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#63D7E3" opacity="0.75">&#9656;</text>
+  <text x="66" y="166" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#AFC7D6">heavy lifting, logs that read themselves back to me.    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+  </text>
+  <text x="48" y="196" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#63D7E3" opacity="0.75">&#9656;</text>
+  <text x="66" y="196" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#AFC7D6">Curiosity leads. The deadline just keeps time.    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.0s" fill="freeze"/>
+  </text>
+</svg>

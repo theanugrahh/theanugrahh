@@ -1,0 +1,86 @@
+<svg width="880" height="330" viewBox="0 0 880 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="330" rx="16" fill="#0A1420" stroke="#14243A" stroke-width="1"/>
+  <text x="44" y="42" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="10" letter-spacing="4" font-weight="600" fill="#63D7E3">SYSTEMS MANIFEST</text>
+  <text x="836" y="42" text-anchor="end" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="10" letter-spacing="2" fill="#4A6376">CHECKED DAILY</text>
+  <line x1="44" y1="56" x2="836" y2="56" stroke="#1E2C3F" stroke-width="1"/>
+  <text x="44" y="84" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#4A6376">MACHINE LEARNING &amp; AI</text>
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+  <rect x="44" y="96" width="100" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="66" cy="118" r="10.5" fill="#3776AB"/>
+  <text x="66" y="121.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFD43B">Py</text>
+  <text x="84" y="122.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Python</text>
+  <rect x="158.4" y="96" width="108" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="180.4" cy="118" r="10.5" fill="#EE4C2C"/>
+  <text x="180.4" y="121.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Pt</text>
+  <text x="198.4" y="122.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">PyTorch</text>
+  <rect x="280.20000000000005" y="96" width="130" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="302.20000000000005" cy="118" r="10.5" fill="#FF6F00"/>
+  <text x="302.20000000000005" y="121.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">TF</text>
+  <text x="320.20000000000005" y="122.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">TensorFlow</text>
+  <rect x="424.20000000000005" y="96" width="100" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="446.20000000000005" cy="118" r="10.5" fill="#5C3EE8"/>
+  <text x="446.20000000000005" y="121.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">CV</text>
+  <text x="464.20000000000005" y="122.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">OpenCV</text>
+  <rect x="538.6" y="96" width="145" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="560.6" cy="118" r="10.5" fill="#F09437"/>
+  <text x="560.6" y="121.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#221C12">Sk</text>
+  <text x="578.6" y="122.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Scikit-learn</text>
+  </g>
+  <text x="44" y="158" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#4A6376">SERVE &amp; STORE</text>
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.5s" fill="freeze"/>
+  <rect x="44" y="170" width="108" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="66" cy="192" r="10.5" fill="#009688"/>
+  <text x="66" y="195.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Fa</text>
+  <text x="84" y="196.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">FastAPI</text>
+  <rect x="165.8" y="170" width="130" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="187.8" cy="192" r="10.5" fill="#336791"/>
+  <text x="187.8" y="195.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Pg</text>
+  <text x="205.8" y="196.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">PostgreSQL</text>
+  <rect x="309.8" y="170" width="93" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="331.8" cy="192" r="10.5" fill="#D82C20"/>
+  <text x="331.8" y="195.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Rd</text>
+  <text x="349.8" y="196.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Redis</text>
+  <rect x="416.8" y="170" width="93" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="438.8" cy="192" r="10.5" fill="#4479A1"/>
+  <text x="438.8" y="195.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">My</text>
+  <text x="456.8" y="196.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">MySQL</text>
+  <rect x="523.8" y="170" width="108" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="545.8" cy="192" r="10.5" fill="#4DB33D"/>
+  <text x="545.8" y="195.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#221C12">Mg</text>
+  <text x="563.8" y="196.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">MongoDB</text>
+  </g>
+  <text x="44" y="232" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="2" fill="#4A6376">INTERFACES &amp; TOOLS</text>
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.7s" fill="freeze"/>
+  <rect x="44" y="244" width="93" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="66" cy="266" r="10.5" fill="#20232A" stroke="#61DAFB" stroke-width="1"/>
+  <text x="66" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#61DAFB">R</text>
+  <text x="84" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">React</text>
+  <rect x="151.0" y="244" width="108" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="173.0" cy="266" r="10.5" fill="#0A1420" stroke="#3A4C63" stroke-width="1"/>
+  <text x="173.0" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">N</text>
+  <text x="191.0" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Next.js</text>
+  <rect x="272.8" y="244" width="78" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="294.8" cy="266" r="10.5" fill="#777BB4"/>
+  <text x="294.8" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Ph</text>
+  <text x="312.8" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">PHP</text>
+  <rect x="365.0" y="244" width="78" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="387.0" cy="266" r="10.5" fill="#F05032"/>
+  <text x="387.0" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Gi</text>
+  <text x="405.0" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Git</text>
+  <rect x="457.2" y="244" width="93" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="479.2" cy="266" r="10.5" fill="#FCC624"/>
+  <text x="479.2" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#221C12">Li</text>
+  <text x="497.2" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Linux</text>
+  <rect x="564.2" y="244" width="108" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="586.2" cy="266" r="10.5" fill="#007ACC"/>
+  <text x="586.2" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">VS</text>
+  <text x="604.2" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">VS Code</text>
+  <rect x="686.0" y="244" width="123" height="44" rx="5" fill="#0D1725" stroke="#1E3247" stroke-width="1"/>
+  <circle cx="708.0" cy="266" r="10.5" fill="#FF4B4B"/>
+  <text x="708.0" y="269.5" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Sl</text>
+  <text x="726.0" y="270.5" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" fill="#E9F2F6">Streamlit</text>
+  </g>
+</svg>

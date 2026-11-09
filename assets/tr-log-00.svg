@@ -1,0 +1,30 @@
+<svg width="880" height="264" viewBox="0 0 880 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="264" rx="16" fill="#0A1420" stroke="#14243A" stroke-width="1"/>
+  <path d="M14 26 V14 H26" stroke="#1E3247" stroke-width="1.5"/>
+  <path d="M854 14 H866 V26" stroke="#1E3247" stroke-width="1.5"/>
+  <line x1="48" y1="50" x2="48" y2="216" stroke="#1E2C3F" stroke-width="1"/>
+  <rect x="43.5" y="50.5" width="9" height="9" transform="rotate(45 48 55)" fill="none" stroke="#63D7E3" stroke-width="1.3">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.2s" fill="freeze"/>
+  </rect>
+  <text x="68" y="59" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="10" fill="#63D7E3" letter-spacing="3" font-weight="600">LOG 00 &#183; WHERE IT STARTED    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.35s" fill="freeze"/>
+  </text>
+  <text x="68" y="97" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="18" fill="#E9F2F6">It started with water.    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.50s" fill="freeze"/>
+  </text>
+  <text x="68" y="127" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8FA8BC">Aguamenti was research on anaerobic wastewater treatment &#8212; microbes doing    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.65s" fill="freeze"/>
+  </text>
+  <text x="68" y="149" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8FA8BC">the cleaning, no power needed. It placed runner-up among 300+ teams in a    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.72s" fill="freeze"/>
+  </text>
+  <text x="68" y="171" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8FA8BC">national innovation challenge, and taught the first real lesson:    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.79s" fill="freeze"/>
+  </text>
+  <text x="68" y="193" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" fill="#8FA8BC">an idea taken all the way to a working prototype can outrun polish.    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.86s" fill="freeze"/>
+  </text>
+  <g transform="translate(68, 228)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.00s" fill="freeze"/>
+    <rect x="0" y="0" width="76" height="22" rx="3" fill="none" stroke="#1E3247" stroke-width="1"/>
+    <text x="11" y="15" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#7DBCC8">AGUAMENTI</text>
+    <rect x="88.0" y="0" width="94" height="22" rx="3" fill="none" stroke="#1E3247" stroke-width="1"/>
+    <text x="99" y="15" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#7DBCC8">ENV-RESEARCH</text>
+    <rect x="194.0" y="0" width="82" height="22" rx="3" fill="none" stroke="#1E3247" stroke-width="1"/>
+    <text x="205" y="15" font-family="'SF Mono', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#7DBCC8">300+ TEAMS</text>
+  </g>
+</svg>
