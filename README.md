@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/intro.svg?v=2)
+![Header](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/intro-v2.svg)
 
 <br/>
 
@@ -34,11 +34,11 @@ Beyond GitHub, two research builds:
 
 &nbsp;
 
-![Tech Stack](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/stack.svg?v=2)
+![Tech Stack](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/stack-v2.svg)
 
 &nbsp;
 
-![How I Work](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/process.svg?v=2)
+![How I Work](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/process-v2.svg)
 
 &nbsp;
 
