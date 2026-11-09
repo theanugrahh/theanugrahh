@@ -1,52 +1,46 @@
 <div align="center">
 
-![Header](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/intro.svg)
+![Header](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/intro.svg?v=2)
 
 <br/>
 
 <a href="https://www.linkedin.com/in/anugrahkrishnaasreejith/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-@anugrahkrishnaa-0D1117?style=flat-square&logo=linkedin&logoColor=D8C08A" alt="LinkedIn"/>
 </a>
 <a href="mailto:sreejith.anugrah@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-sreejith.anugrah@gmail.com-0D1117?style=flat-square&logo=gmail&logoColor=D8C08A" alt="Email"/>
 </a>
 
-<br/>
-<br/>
-
-**AI / ML · Systems · Research** — building real-time, production-grade tools at the intersection of machine learning and systems.
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=theanugrahh&label=Profile%20Views&color=161B22&style=flat&labelColor=D8C08A" alt="Profile Views"/>
-
 </div>
 
----
+&nbsp;
 
 <div align="center">
-
-![Selected Work](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/work.svg)
-
+  <img src="https://komarev.com/ghpvc/?username=theanugrahh&label=Profile%20Views&color=161B22&style=flat&labelColor=D8C08A" alt="Profile Views"/>
 </div>
 
----
+## Selected Work
 
-<div align="center">
+Developer platforms, ML pipelines, and the analytics around them — mostly real-time tools, built end to end.
 
-![Tech Stack](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/stack.svg)
+- **[`devvault`](https://github.com/theanugrahh/devvault)** — a self-contained developer API platform: accounts, projects, scoped API keys, a rate-limited developer API, and request logs with usage analytics. The full chain runs end to end. `FastAPI` `PostgreSQL` `Redis` `Next.js`
+- **[`commitsense`](https://github.com/theanugrahh/commitsense)** — lightweight git repository analytics and commit quality analysis. `Python` `Streamlit`
+- **[`FWM_DBMS`](https://github.com/theanugrahh/FWM_DBMS)** — role-based faculty workload allocation for teaching and administrative assignments. `PHP` `MySQL`
 
-</div>
+Beyond GitHub, two research builds:
 
----
+- **Aguamenti** — research on anaerobic wastewater treatment systems, selected from 300+ teams nationwide · *Young Innovator, Runner-up*
+- **Civitas** — zero-shot NLP + speech pipeline for civic grievance redressal, with a real-time analytics dashboard
 
-<div align="center">
+&nbsp;
 
-![How I Work](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/process.svg)
+![Tech Stack](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/stack.svg?v=2)
 
-</div>
+&nbsp;
 
----
+![How I Work](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/process.svg?v=2)
+
+&nbsp;
 
 <div align="center">
 
@@ -60,7 +54,7 @@
 
 </div>
 
----
+&nbsp;
 
 <div align="center">
 
