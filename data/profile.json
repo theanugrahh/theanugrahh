@@ -1,0 +1,62 @@
+{
+  "login": "theanugrahh",
+  "display_name": "Anugrah Krishnaa Sreejith",
+  "name_lines": ["Anugrah", "Krishnaa Sreejith"],
+  "role": "AI / ML · Systems · Research",
+  "tagline": "I build systems that have to work when they matter.",
+  "focus": "AI/ML engineer in training",
+  "availability": "Open to research & engineering",
+  "currently": "Building systems that hold up",
+  "portrait": "assets/avatar.png",
+  "story": {
+    "kicker": "THE POINT",
+    "headline": "I build systems that make real impact.",
+    "lead": "I'm Anugrah, an AI/ML engineer in training. I care about outcomes, not just demos. A system earns its place when it helps someone make a better decision, move faster, or carry less friction. That is the standard I build toward.",
+    "principles": [
+      {
+        "label": "Outcome over demo",
+        "text": "The last 20 percent is the product."
+      },
+      {
+        "label": "Interfaces are the system",
+        "text": "If the boundary is confusing, it is not finished."
+      },
+      {
+        "label": "Boring layers earn trust",
+        "text": "Logs, retries, and permissions are features."
+      }
+    ]
+  },
+  "middle": {
+    "kicker": "THE PART THAT MATTERS",
+    "headline": "I care about the unglamorous middle.",
+    "body": "The middle is where a promising idea becomes something dependable. Auth, logs, retries, interfaces, failure states, and the small decisions that keep a system legible under pressure. I like that work because impact does not survive without it. That is the part I keep choosing."
+  },
+  "flow": {
+    "kicker": "THE FLOW",
+    "headline": "Start with the problem. End with something that holds.",
+    "steps": [
+      {
+        "label": "PROBLEM",
+        "text": "Name the failure that actually matters, and who pays for it."
+      },
+      {
+        "label": "CONSTRAINTS",
+        "text": "Respect latency, cost, trust, and the environment the system will live in."
+      },
+      {
+        "label": "SYSTEM",
+        "text": "Build the smallest complete path from input to decision to feedback."
+      },
+      {
+        "label": "IMPACT",
+        "text": "Check whether the person on the other side is better off."
+      }
+    ],
+    "closing": "The flow is problem → constraints → system → impact. The middle is not a detour. It is the path from problem to impact."
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/anugrahkrishnaasreejith/",
+    "email": "sreejith.anugrah@gmail.com"
+  }
+}

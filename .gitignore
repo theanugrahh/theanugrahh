@@ -1,6 +1,12 @@
 # Dependencies
 node_modules/
 build/
+.venv/
+__pycache__/
+.cache/
+
+# Local preview
+preview.html
 
 # IDE
 .idea/

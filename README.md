@@ -1,72 +1,17 @@
-<div align="center">
+<p align="center"><img src="cards/hero.svg?v=7feba3dff5" width="100%" alt="Anugrah Krishnaa Sreejith, AI / ML · Systems · Research"></p>
 
-![Transmission](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-hero.svg)
+<p align="center"><a href="mailto:sreejith.anugrah@gmail.com"><img src="cards/email.svg?v=7feba3dff5" width="49%" alt="Email Anugrah Krishnaa Sreejith"></a> <a href="https://www.linkedin.com/in/anugrahkrishnaasreejith/"><img src="cards/linkedin.svg?v=7feba3dff5" width="49%" alt="LinkedIn"></a></p>
 
-<br/>
+<p align="center"><img src="cards/story.svg?v=7feba3dff5" width="100%" alt="The point: I build systems that make real impact, with outcomes over demos."></p>
 
-</div>
+<p align="center"><img src="cards/middle.svg?v=7feba3dff5" width="100%" alt="The part that matters: I care about the unglamorous middle, where ideas become dependable."></p>
 
-![Log 00](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-log-00.svg)
+<p align="center"><img src="cards/flow.svg?v=7feba3dff5" width="100%" alt="The flow: problem, constraints, system, impact."></p>
 
-&nbsp;
+<p align="center"><img src="cards/public.svg?v=7feba3dff5" width="100%" alt="7 public repositories and 4 languages"></p>
 
-![Log 01](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-log-01.svg)
+<p align="center"><sub>THE LAST YEAR · one commit at a time · refreshed every 6 hours</sub></p>
 
-&nbsp;
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg?v=7feba3dff5"><source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg?v=7feba3dff5"><img src="github-contribution-grid-snake.svg?v=7feba3dff5" width="100%" alt="Contribution snake"></picture></p>
 
-![Log 02](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-log-02.svg)
-
-&nbsp;
-
-![Log 03](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-log-03.svg)
-
-&nbsp;
-
-![Fragments](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-fragments.svg)
-
-&nbsp;
-
-![Manifest](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-manifest.svg)
-
-&nbsp;
-
-![Crew Protocol](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-crew.svg)
-
-&nbsp;
-
-<div align="center">
-
-![Open Channel](https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/assets/tr-channel.svg)
-
-<br/>
-
-<a href="https://www.linkedin.com/in/anugrahkrishnaasreejith/">
-  <img src="https://img.shields.io/badge/LinkedIn-@anugrahkrishnaa-0A1420?style=flat-square&logo=linkedin&logoColor=63D7E3" alt="LinkedIn"/>
-</a>
-<a href="mailto:sreejith.anugrah@gmail.com">
-  <img src="https://img.shields.io/badge/Email-sreejith.anugrah@gmail.com-0A1420?style=flat-square&logo=gmail&logoColor=63D7E3" alt="Email"/>
-</a>
-
-</div>
-
-&nbsp;
-
-<div align="center">
-
-### SIGNALS
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake-dark.svg?cache-bust=v3" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake.svg?cache-bust=v3" />
-  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/theanugrahh/theanugrahh/main/github-contribution-grid-snake-dark.svg?cache-bust=v3" />
-</picture>
-
-</div>
-
-&nbsp;
-
-<div align="center">
-
-<sub>&#8212; end of transmission &#183; Anugrah Krishnaa Sreejith, keeping the beacon lit</sub>
-
-</div>
+<p align="center"><sub>Anugrah Krishnaa Sreejith · refreshed every 6 hours</sub></p>

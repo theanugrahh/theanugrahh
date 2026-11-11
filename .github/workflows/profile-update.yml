@@ -2,30 +2,33 @@ name: Update Profile
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
 
 jobs:
-  update-readme:
-    name: Update README
+  update:
+    name: Refresh cards
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake animation
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            github-contribution-grid-snake.svg?palette=github-light&color_snake=#0969DA&color_snake_bg=#F6F8FA&color_dots=#EBEDF0,#9BE9A8,#40C463,#30A14E,#216E39
-            github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#4CBFFF&color_snake_bg=#0E4429&color_dots=#161B22,#006D32,#26A641,#39D353,#7EE787
+            github-contribution-grid-snake.svg?palette=github-light&color_snake=#2F55FF&color_snake_bg=#F3F3F1&color_dots=#E2E2DE,#C8D3FF,#94A8FF,#6280FF,#2F55FF
+            github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#6280FF&color_snake_bg=#111111&color_dots=#2A2A2A,#1A3BE0,#2F55FF,#6280FF,#94A8FF
 
-      - name: Remove progress bar and crop
+      - name: Remove progress bar and crop snake
         run: |
           python3 - <<'EOF'
           import re
@@ -51,10 +54,28 @@ jobs:
                   assert re.search(r'<rect class="u\b', f.read()) is None, f'progress bar still present in {path}'
           EOF
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install renderer dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh contribution data
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: python scripts/fetch_contributions.py
+
+      - name: Render cards
+        run: python scripts/render_cards.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "chore: update contribution snake [skip ci]"
+          git add cards README.md data/contributions.json github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git diff --staged --quiet || git commit -m "chore: refresh profile cards [skip ci]"
           git push
