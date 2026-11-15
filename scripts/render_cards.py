@@ -373,6 +373,8 @@ def render_link_card(profile, kind, static):
     links = profile["links"]
     if kind == "email":
         label, value, description = "EMAIL", links["email"], "Email Anugrah"
+    elif kind == "website":
+        label, value, description = "ABOUT ME", "PORTFOLIO", "About Anugrah"
     else:
         label, value, description = "LINKEDIN", "in/anugrahkrishnaasreejith", "LinkedIn"
     card = Card(380, 48, description, 0.0, static)
@@ -593,8 +595,11 @@ def render_public(profile, data, static):
     return card.render()
 
 
-def content_version(data):
-    stable = {key: value for key, value in data.items() if key != "generated_at"}
+def content_version(profile, data):
+    stable = {
+        "profile": profile,
+        "data": {key: value for key, value in data.items() if key != "generated_at"},
+    }
     digest = hashlib.sha1(json.dumps(stable, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
     return digest[:10]
 
@@ -602,7 +607,7 @@ def content_version(data):
 def build_readme(profile, data):
     links = profile["links"]
     email = links["email"]
-    version = content_version(data)
+    version = content_version(profile, data)
     src = lambda name: f"cards/{name}?v={version}"
     snake = lambda name: f"{name}?v={version}"
     name = esc(profile["display_name"])
@@ -616,7 +621,7 @@ def build_readme(profile, data):
         [
             f'<p align="center"><img src="{src("hero.svg")}" width="100%" alt="{name}, {esc(profile["role"])}"></p>',
             "",
-            f'<p align="center"><a href="mailto:{esc(email)}"><img src="{src("email.svg")}" width="49%" alt="Email {name}"></a> <a href="{esc(links["linkedin"])}"><img src="{src("linkedin.svg")}" width="49%" alt="LinkedIn"></a></p>',
+            f'<p align="center"><a href="mailto:{esc(email)}"><img src="{src("email.svg")}" width="32.4%" alt="Email {name}"></a> <a href="{esc(links["website"])}"><img src="{src("website.svg")}" width="32.4%" alt="About {name}"></a> <a href="{esc(links["linkedin"])}"><img src="{src("linkedin.svg")}" width="32.4%" alt="LinkedIn"></a></p>',
             "",
             f'<p align="center"><img src="{src("story.svg")}" width="100%" alt="{esc(story_alt)}"></p>',
             "",
@@ -676,7 +681,7 @@ def build_preview(profile, data, static):
   <div class="banner"><span>{banner}</span><strong>theanugrahh</strong></div>
   <div class="readme">
     <p><img src="cards/hero.svg" width="100%" alt="Hero"></p>
-    <p><a href="mailto:{esc(email)}"><img src="cards/email.svg" width="49%" alt="Email"></a> <a href="{esc(links["linkedin"])}"><img src="cards/linkedin.svg" width="49%" alt="LinkedIn"></a></p>
+    <p><a href="mailto:{esc(email)}"><img src="cards/email.svg" width="32.4%" alt="Email"></a> <a href="{esc(links["website"])}"><img src="cards/website.svg" width="32.4%" alt="About"></a> <a href="{esc(links["linkedin"])}"><img src="cards/linkedin.svg" width="32.4%" alt="LinkedIn"></a></p>
     <p><img src="cards/story.svg" width="100%" alt="The point: building systems that make real impact"></p>
     <p><img src="cards/middle.svg" width="100%" alt="The unglamorous middle"></p>
     <p><img src="cards/flow.svg" width="100%" alt="The flow from problem to impact"></p>
@@ -701,6 +706,7 @@ def main():
     outputs = {
         "hero.svg": render_hero(profile, data, static),
         "email.svg": render_link_card(profile, "email", static),
+        "website.svg": render_link_card(profile, "website", static),
         "linkedin.svg": render_link_card(profile, "linkedin", static),
         "story.svg": render_story(profile, data, static),
         "middle.svg": render_middle(profile, data, static),
