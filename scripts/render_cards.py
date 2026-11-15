@@ -380,8 +380,8 @@ def render_link_card(profile, kind, static):
     card = Card(380, 48, description, 0.0, static)
     card.add(rect(0, 0, 380, 48, PAPER_2, rx=10, stroke=RULE_SOFT))
     card.add(circle(16, 24, 3, ACCENT))
-    card.add(card.text(28, 28, label, size=9.2, fill=ACCENT, font="mono", ls=1.4))
-    card.add(card.text(364, 28, value, size=12.5, fill=INK, font="body", anchor="end"))
+    card.add(card.text(28, 28, label, size=12, fill=ACCENT, font="mono", ls=1.4))
+    card.add(card.text(364, 28, value, size=17, fill=INK, font="body", anchor="end"))
     return card.render()
 
 
@@ -595,19 +595,20 @@ def render_public(profile, data, static):
     return card.render()
 
 
-def content_version(profile, data):
+def content_version(profile, data, cards=None):
     stable = {
         "profile": profile,
         "data": {key: value for key, value in data.items() if key != "generated_at"},
+        "cards": cards or {},
     }
     digest = hashlib.sha1(json.dumps(stable, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
     return digest[:10]
 
 
-def build_readme(profile, data):
+def build_readme(profile, data, version=None):
     links = profile["links"]
     email = links["email"]
-    version = content_version(profile, data)
+    version = version or content_version(profile, data)
     src = lambda name: f"cards/{name}?v={version}"
     snake = lambda name: f"{name}?v={version}"
     name = esc(profile["display_name"])
@@ -722,7 +723,7 @@ def main():
         if path.name not in outputs:
             path.unlink()
 
-    README_PATH.write_text(build_readme(profile, data), encoding="utf-8")
+    README_PATH.write_text(build_readme(profile, data, content_version(profile, data, outputs)), encoding="utf-8")
     PREVIEW_PATH.write_text(build_preview(profile, data, static), encoding="utf-8")
     print(f"Wrote {len(outputs)} cards · README.md · preview.html{' · static frame' if static else ''}")
 
